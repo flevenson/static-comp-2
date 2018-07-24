@@ -1,41 +1,202 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
     <title>Static Comp 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Sunflower:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <nav>
-      <button>Shares</button>
-      <button>Playlists</button>
-      <button>Personal Videos</button>
-      <button>Admin Username</button>
-      <h1></h1>
+      <section class="nav-section share-section nav-choices">
+        <img src="images/icons8-share-100.png" alt="share icon" class="share-icon icon">
+        <p class="nav-choices-name">Shares</p>
+      </section>
+      <section class="nav-section playlists-section nav-choices">
+        <img src="images/icons8-bulleted-list-60.png" alt="bulleted list icon" class="playlists-icon icon">
+        <p class="nav-choices-name">Playlists</p>
+      </section>
+      <section class="nav-section personal-videos-section nav-choices">
+        <img src="images/icons8-customer-100.png" alt="person icon" class="personal-videos-icon icon">
+        <p class="nav-choices-name">Personal Videos</p>
+      </section>
+      <section class="nav-section admin-username-section">
+        <img src="images/icons8-male-user-100.png" alt="person icon in circle" class="admin-username-icon admin-username-contents">
+        <p class="username admin-username-contents">Admin Username</p>
+        <img src="images/icons8-sort-down-26.png" alt="down arrow admin-username-contents" class="arrow-icon">
+        </section>
+      <section class="site-heading-section">
+        <h2 class="nav-section site-heading">NuJazz!
+          <img src="images/icons8-jazz-filled-100.png" alt="Main NuJazz Icon" class="main-jazz-icon">
+        </h2>
+      </section>
     </nav>
     <main>
-      <section>
-        
-      </section>
-      <section>
-        
-      </section>
-      <section>
-
-      </section>
-      <section>
-
-      </section>
-      <section>
-        
-      </section>
-      <section>
-        
-      </section>
-      <section>
-
-      </section>
-      <section>
-
+      <header>
+        <h1 class="main-heading">Shares</h1>
+      </header>
+      <section class="card-section">
+        <article class="first-card profile-card" aria-label="this section is about Herbie Hancock">
+          <section class="first-card-image card-image">
+            <img src="images/icons8-right-2-filled-100.png" alt="this is a share button" class="share-arrow">
+            <div class="view-holder">
+              <h4 class="views">Views</h4>
+              <h3 class="view-number">26</h3>
+            </div>
+          </section>
+          <section class="card-info">
+            <h5 class="name">Herbie Hancock</h5>
+            <p class="description">One of the Greatest of All Time</p>
+            <div class="link-holder">
+              <a href="https://en.wikipedia.org/wiki/Herbie_Hancock#Discography" rel="link to artist wiki">https://en.wikipedia.org/wiki/Herbie_Hancock#Discography</a>
+            </div>
+            <h6 class="fav-Song">Favorite Song</h6>
+            <h5 class="song-Name">Watermelon Man</h5>
+            <h6 class="performances">Performances Seen</h6>
+            <h3 class="number-Performances">01</h3>
+          </section>
+        </article>
+        <article class="second-card profile-card" aria-label="this section is about Hiromi">
+          <section class="second-card-image card-image">
+            <img src="images/icons8-right-2-filled-100.png" alt="this is a share button" class="share-arrow">
+            <div class="view-holder">
+              <h4 class="views">Views</h4>
+              <h3 class="view-number">68</h3>
+            </div>          
+          </section>
+          <section class="card-info">
+            <h5 class="name">Hiromi</h5>
+            <p class="description">Progressive-Classical pianist from Japan</p>
+            <div class="link-holder">
+              <a href="https://en.wikipedia.org/wiki/Hiromi_Uehara#Discography" rel="link to artist wiki">https://en.wikipedia.org/wiki/Hiromi_Uehara#Discography</a>
+            </div>
+            <h6 class="fav-Song">Favorite Song</h6>
+            <h5 class="song-Name">Now or Never</h5>
+            <h6 class="performances">Performances Seen</h6>
+            <h3 class="number-Performances">00</h3>
+          </section>
+        </article>
+        <article class="third-card profile-card" aria-label="this section is about GoGo Penguin">
+          <section class="third-card-image card-image">
+            <img src="images/icons8-right-2-filled-100.png" alt="this is a share button" class="share-arrow">
+            <div class="view-holder">
+              <h4 class="views">Views</h4>
+              <h3 class="view-number">12</h3>
+            </div>
+          </section>
+          <section class="card-info">
+            <h5 class="name">GoGo Penguin</h5>
+            <p class="description">Electronic-Classical Jazz trio from the UK</p>
+            <div class="link-holder">
+              <a href="https://en.wikipedia.org/wiki/GoGo_Penguin#Discography" rel="link to artist wiki">https://en.wikipedia.org/wiki/GoGo_Penguin#Discography</a>
+            </div>
+            <h6 class="fav-Song">Favorite Song</h6>
+            <h5 class="song-Name">Garden Dog Barbecue</h5>
+            <h6 class="performances">Performances Seen</h6>
+            <h3 class="number-Performances">00</h3>
+          </section>
+        </article >
+        <article class="fourth-card profile-card" aria-label="this section is about Kamasi Washington">
+          <section class="fourth-card-image card-image">
+            <img src="images/icons8-right-2-filled-100.png" alt="this is a share button" class="share-arrow">
+            <div class="view-holder">
+              <h4 class="views">Views</h4>
+              <h3 class="view-number">56</h3>
+            </div>
+          </section>
+          <section class="card-info">
+            <h5 class="name">Kamasi Washington</h5>
+            <p class="description">Jazz Saxophonist and composer from LA</p>
+            <div class="link-holder">
+              <a href="https://en.wikipedia.org/wiki/Kamasi_Washington#Discography" rel="link to artist wiki">https://en.wikipedia.org/wiki/Kamasi_Washington#Discography</a>
+            </div>
+            <h6 class="fav-Song">Favorite Song</h6>
+            <h5 class="song-Name">Truth</h5>
+            <h6 class="performances">Performances Seen</h6>
+            <h3 class="number-Performances">01</h3>
+          </section>
+        </article>
+        <article class="fifth-card profile-card" aria-label="this section is about Snarky Puppy">
+          <section class="fifth-card-image card-image">
+            <img src="images/icons8-right-2-filled-100.png" alt="this is a share button" class="share-arrow">
+            <div class="view-holder">
+              <h4 class="views">Views</h4>
+              <h3 class="view-number">76</h3>
+            </div>
+          </section>
+          <section class="card-info">
+            <h5 class="name">Snarky Puppy</h5>
+            <p class="description">Genre Bending jazz ensemble from Texas</p>
+            <div class="link-holder">
+              <a href="https://en.wikipedia.org/wiki/Snarky_Puppy#Discography" rel="link to artist wiki">https://en.wikipedia.org/wiki/Snarky_Puppy#Discography</a>
+            </div>
+            <h6 class="fav-Song">Favorite Song</h6>
+            <h5 class="song-Name">Shofukan</h5>
+            <h6 class="performances">Performances Seen</h6>
+            <h3 class="number-Performances">02</h3>
+          </section>
+        </article>
+        <article class="sixth-card profile-card" aria-label="this section is about Medeski Martin and Wood">
+          <section class="sixth-card-image card-image">
+            <img src="images/icons8-right-2-filled-100.png" alt="this is a share button" class="share-arrow">
+            <div class="view-holder">
+              <h4 class="views">Views</h4>
+              <h3 class="view-number">37</h3>
+            </div>
+          </section>
+          <section class="card-info">
+            <h5 class="name">Medeski Martin and Wood</h5>
+            <p class="description">Avant-Garde jazz-funk trio from Brooklyn</p>
+            <div class="link-holder">
+              <a href="https://en.wikipedia.org/wiki/Medeski_Martin_%26_Wood#Discography" rel="link to artist wiki">https://en.wikipedia.org/wiki/Medeski_Martin_%26_Wood#Discography</a>
+            </div>
+            <h6 class="fav-Song">Favorite Song</h6>
+            <h5 class="song-Name">End of the World Party</h5>
+            <h6 class="performances">Performances Seen</h6>
+            <h3 class="number-Performances">03</h3>
+          </section>
+        </article>
+        <article class="seventh-card profile-card" aria-label="this section is about Thundercat">
+          <section class="seventh-card-image card-image">
+            <img src="images/icons8-right-2-filled-100.png" alt="this is a share button" class="share-arrow">
+            <div class="view-holder">
+              <h4 class="views">Views</h4>
+              <h3 class="view-number">99</h3>
+            </div>
+          </section>
+          <section class="card-info">
+            <h5 class="name">Thundercat</h5>
+            <p class="description">Funk and R&B influenced bassist from LA</p>
+            <div class="link-holder">
+              <a href="https://en.wikipedia.org/wiki/Thundercat_(musician)#Discography" rel="link to artist wiki">https://en.wikipedia.org/wiki/Thundercat_(musician)#Discography</a>
+            </div>
+            <h6 class="fav-Song">Favorite Song</h6>
+            <h5 class="song-Name">Them Changes</h5>
+            <h6 class="performances">Performances Seen</h6>
+            <h3 class="number-Performances">04</h3>
+          </section>
+        </article>
+        <article class="eighth-card profile-card" aria-label="this section is about Bad Bad Not Good">
+          <section class="eighth-card-image card-image">
+            <img src="images/icons8-right-2-filled-100.png" alt="this is a share button" class="share-arrow">
+            <div class="view-holder">
+              <h4 class="views">Views</h4>
+              <h3 class="view-number">52</h3>
+            </div>
+          </section>
+          <section class="card-info">
+            <h5 class="name">BadBadNotGood</h5>
+            <p class="description">Hip-Hop influenced Jazz group from Toronto</p>
+            <div class="link-holder">
+              <a href="https://en.wikipedia.org/wiki/BadBadNotGood#Discography" rel="link to artist wiki">https://en.wikipedia.org/wiki/BadBadNotGood#Discography</a>
+            </div>
+            <h6 class="fav-Song">Favorite Song</h6>
+            <h5 class="song-Name">Kaleidoscope</h5>
+            <h6 class="performances">Performances Seen</h6>
+            <h3 class="number-Performances">01</h3>
+          </section>
+        </article>
       </section>
     </main>
   </body>
