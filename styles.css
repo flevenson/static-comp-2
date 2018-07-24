@@ -1,0 +1,304 @@
+*{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+nav{
+  background-color: #2B2B2B;
+  display: grid;
+  grid-template-columns: 11% 15% 15% 59%;
+  grid-template-rows: 30% 70%;
+  height: 20vh;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sunflower', sans-serif;
+}
+.site-heading{
+  font-family: 'Pacifico', cursive;
+}
+.nav-choices{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+.share-section{
+  color: white;
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+}
+.playlists-section{
+  color: #777777;
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+}
+.personal-videos-section{
+  color: #777777;
+  grid-row: 2 / span 1;
+  grid-column: 3 / span 1;
+}
+.icon{
+  height: 25px;
+  margin-right: 10px;
+}
+.nav-choices-name{
+  font-size: 20px;
+}
+.admin-username-section{
+  color: #57BAFF;
+  grid-row: 1 / span 1;
+  grid-column: 4 / span 1;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.admin-username-icon{
+  height: 30px;
+  margin-right: 10px;
+}
+.arrow-icon{
+  margin: 0 20px 0 10px;
+}
+.site-heading-section{
+  display:flex;
+  grid-row: 2 / span 1;
+  grid-column: 4 / span 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+h2{
+  display:flex;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+}
+.main-jazz-icon{
+  height: 42px;
+  margin: 0 20px 0 5px;
+}
+main{
+  background-color: #EFEFEF;
+}
+.card-section{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 12px;
+  padding: 20px;
+}
+h1{
+  font-size: 3rem;
+  padding: 30px 20px 10px;
+  color: #777777;
+}
+.profile-card{
+  height: 450px;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0px 0px 5px #888888;
+}
+.card-image{
+  height: 150px;
+  display:  grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.first-card-image{
+  background: url(images/HerbieHancockpressimagecrop-1480x832.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.second-card-image{
+  background: url(images/Hiromi.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.third-card-image{
+  background: url(images/maxresdefault-1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.fourth-card-image{
+  background: url(images/the-new-indies-kamasi-washington.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+.fifth-card-image{
+  background: url(images/5a8c6801812c1.image.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+.sixth-card-image{
+  background: url(images/medeski-martin-and-wood-50619b5b259c5.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+.seventh-card-image{
+  background: url(images/static1.squarespace.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+.eighth-card-image{
+  background: url(images/bbng-640x426.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+.share-arrow{
+  border-radius: 50%;
+  height: 40px;
+  background-color: white;
+  padding: 10px;
+  margin: 15px;
+  grid-column: 1 / span 1;
+}
+.view-holder{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 20px;
+}
+.views, .view-number{
+  color: white;
+  grid-column: 2 / span 1;
+}
+.views{
+  font-size: 14px;
+}
+.view-number{
+  font-size: 36px;
+}
+.card-info{
+  background-color: white;
+  height: 300px;
+  padding: 15px;
+}
+.name{
+  font-size: 24px;
+  color: #777777;
+}
+.description{
+  font-size: 12px;
+  margin: 2px 0;
+  color:#777777;
+}
+.link-holder{
+  background-color: #EFEFEF;
+  height: 60px;
+  overflow-wrap: break-word;
+  padding: 7px;
+  margin: 20px 0;
+}
+a{
+  font-size: 12px;
+}
+.fav-Song{
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.song-Name{
+  color: #777777;
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+.performances{
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.number-Performances{
+  color: #57BAFF;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 1135px){
+  nav{
+    grid-template-columns: 11% 15% 20% 54%
+  }
+}
+
+@media screen and (max-width: 1000px){
+  nav{
+    grid-template-columns: 15% 15% 20% 50%;
+  }
+}
+
+@media screen and (max-width: 855px){
+  nav{
+    grid-template-columns: 18% 18% 25% 39%;
+  }
+}
+
+@media screen and (max-width: 855px){
+  nav{
+    grid-template-columns: 25% 25% 50%;
+  }
+  .share-section{
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+  position: relative;
+  right: 5px;
+}
+.playlists-section{
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+}
+.personal-videos-section{
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+}
+.admin-username-section{
+  grid-row: 1 / span 1;
+  grid-column: 3 / span 1;
+}
+.site-heading-section{
+  grid-row: 2 / span 1;
+  grid-column: 3 / span 1;
+}
+}
+
+@media screen and (max-width: 690px){
+  nav{
+    grid-template-columns: 25% 35% 40%;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .personal-videos-section{
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+}
+}
+
+@media screen and (max-width: 550px){
+  .nav-choices-name{
+    font-size: 16px;
+  }
+  .site-heading{
+    font-size: 40px;
+  }
+  .admin-username-contents{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .username{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px){
+  nav{
+    grid-template-columns: 25% 45% 30%;
+  }
+  .icon{
+    height: 20px;
+  }
+  .nav-choices-name{
+    font-size: 14px;
+  }
+}
